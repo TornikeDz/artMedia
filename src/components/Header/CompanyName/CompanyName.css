@@ -1,0 +1,14 @@
+.company-header {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 25.47px;
+}
+
+.company-header-logo {
+    width: 120px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #2B3252;
+}
