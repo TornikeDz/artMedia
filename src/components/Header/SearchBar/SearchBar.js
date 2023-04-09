@@ -1,7 +1,7 @@
 import './SearchBar.css';
 import { useState } from 'react';
 
-export const SearchBar = () => {
+const SearchBar = () => {
     const [value, setValue] = useState('');
     
     const handleChange = (event) => {
@@ -34,3 +34,5 @@ export const SearchBar = () => {
         </div>
     )
 }
+
+export default SearchBar;

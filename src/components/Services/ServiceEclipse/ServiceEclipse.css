@@ -1,0 +1,62 @@
+.eclipses {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.eclipse-service-icon {
+    position: absolute;
+    z-index: 4;
+    top: 25%;
+    left: 25%;
+    color: #2B3252;
+    transition: 1s;
+}
+
+.eclipse-01 {
+    width: 150px;
+    height: 150px;
+    background: #F8F8FA;
+    border-radius: 50%;
+    filter: blur(2px);
+    position: relative;
+    z-index: 3;
+}
+
+.eclipse-02 {
+    width: 140px;
+    height: 140px;
+    background: #F0F1F1;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    z-index: 2;
+    animation: serviceUnHover 2s ease forwards;
+}
+
+.eclipses:hover .eclipse-02{
+    background: #a7a8cd;
+    animation: serviceHover 1s ease forwards;
+}
+
+.eclipses:hover .eclipse-service-icon {
+    color: #a7a8cd;
+}
+
+@keyframes serviceHover {
+    to {
+        transform: translateX(10px);
+      }
+}
+
+@keyframes serviceUnHover {
+    from {
+        transform: translateX(10); background: #a7a8cd;; 
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+

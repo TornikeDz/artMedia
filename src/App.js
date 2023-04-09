@@ -1,10 +1,14 @@
 import './App.css';
-import { SearchBar } from './components/Header/SearchBar/SearchBar';
+import Header from './components/Header/Header';
+import Main from './components/Main/Main';
+import Services from './components/Services/Services';
 
 function App() {
   return (
     <div className="App">
-    <SearchBar/>
+      {/* <Header/> */}
+      <Main/>
+      <Services/>
     </div>
   );
 }

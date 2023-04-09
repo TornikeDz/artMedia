@@ -1,10 +1,10 @@
 import './CompanyName.css';
 
-export const CompanyName = () => {
+const CompanyName = () => {
     return (
         <div className="company-header">
             <img className="company-header-name" 
-            src={require("../../assets/images/logo-header.svg").default} 
+            src={require('../../../assets/images/logo-header.svg').default} 
             alt="company logo"
             width="61.53px" 
             height="68px"/>
@@ -12,3 +12,5 @@ export const CompanyName = () => {
         </div>
     )
 }
+
+export default CompanyName;
