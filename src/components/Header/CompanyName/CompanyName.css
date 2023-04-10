@@ -2,6 +2,7 @@
     display: flex;
     flex-flow: row nowrap;
     gap: 25.47px;
+    cursor: pointer;
 }
 
 .company-header-logo {
@@ -11,4 +12,5 @@
     line-height: 27px;
     text-transform: uppercase;
     color: #2B3252;
+    cursor: pointer;
 }

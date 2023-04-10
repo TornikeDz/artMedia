@@ -6,4 +6,36 @@
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header-navbar {
+    margin-left: 43px;
+}
+
+.header-search-bar {
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 1080px) {
+    .header {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header-company-name {
+        order: 1;
+    }
+      
+    .header-navbar {
+      order: 3;
+      align-self: center;
+      margin: 0 auto;
+    }
+    
+    .header-search-bar {
+      order: 2;
+    }
+
 }

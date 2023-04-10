@@ -6,9 +6,9 @@ import SearchBar from './SearchBar/SearchBar';
 const Header = () => {
     return (
         <div className="header">
-            <CompanyName/>
-            <Navbar/>
-            <SearchBar/>
+          <div className="header-company-name"><CompanyName/></div>
+          <div className="header-navbar"><Navbar/></div>
+          <div className="header-search-bar"><SearchBar/></div>
         </div>
     )
 }

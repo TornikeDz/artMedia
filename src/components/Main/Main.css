@@ -11,8 +11,6 @@
     font-size: 10px;
 }
 
-
-
 .main-container {
     width: 768px;
     position: relative;
@@ -44,6 +42,16 @@
 }
 
 
+
+.bottom-border-layer {
+    border: 1px solid;
+    width: 100%;
+    height: 10px;
+    max-width: 1400px;
+    
+    bottom: -70;
+}
+
 @media only screen and (max-width: 991px) {
     .main {
         font-size: 8px;
@@ -58,6 +66,26 @@
         max-width: 80%;
     }
   }
+
+  .bottom-borderer {
+      border: 4px solid red;
+      position: relative;
+      top: 4000;
+  }
+
+  .borderer {
+    width: 100%;
+    height: 10px;
+    left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    bottom: 0px;
+    height: 10px;
+    border: solid 2px solid red;
+    background: #2B3252;
+  }
+
+
 
 @media only screen and (max-width: 768px) {
     .main {

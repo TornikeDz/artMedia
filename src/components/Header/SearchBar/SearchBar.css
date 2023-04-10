@@ -21,6 +21,7 @@
     font-size: 14px;
     line-height: 17px;
     color: #2B3252;
+    flex: 1;
 }
 
 .search-container-form-input::placeholder {
@@ -36,4 +37,21 @@
 .search-container .search-container-form-icon {
     background: none;
     border: none;
+    cursor: pointer;
   } 
+
+
+  @media only screen and (max-width: 1080px) {
+    .search-container-form {
+        width: 500px;
+        margin: 0 auto;
+        align-self: center;
+    }
+
+    @media only screen and (max-width: 528px) {
+        .search-container-form {
+            width: 300px;
+        }
+    }
+    
+}

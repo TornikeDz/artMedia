@@ -12,6 +12,8 @@ const Main = () => {
                 <p className="main-container-paragraph">{mainData.paragraph}</p>
                 <SeeMoreButton/>
             </div>
+            {/* <div className="borderer">
+            </div> */}
         </div>
     )
 }

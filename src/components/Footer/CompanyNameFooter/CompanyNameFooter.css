@@ -1,0 +1,33 @@
+.company-footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.company-footer {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 25.47px;
+}
+
+.company-footer-logo {
+    width: 120px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.company-footer-name {
+    cursor: pointer;
+}
+
+.company-footer-rights {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.7;
+}

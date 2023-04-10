@@ -11,8 +11,46 @@
     line-height: 22px;
     color: #2B3252;
     text-transform: capitalize;
+    cursor: pointer;
 }
 
 a {
     text-decoration: none;
+}
+
+.navigation-list-item a.active  {
+    color: #EF5555;
+}
+
+.navigation-list-item a.active .navigation-list-underline {
+    width: 18px;
+    height: 0px;
+    left: 723px;
+    top: 105px;
+    border: 1px solid #EF5555;
+}
+
+.navigation-list-underline {
+    width: 18px;
+    height: 0px;
+    left: 723px;
+    top: 105px;
+    border: 1px solid #ffffff;
+    margin: 0 auto;
+}
+
+.active-link-underline {
+    text-decoration: none;
+    position: relative;
+  }
+  
+
+
+@media only screen and (max-width: 600px) {
+    .navigation-list {
+        gap: 20px;
+    }
+    .navigation-list-item {
+        font-size: 14px;
+    }
 }

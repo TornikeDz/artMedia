@@ -1,12 +1,12 @@
 .services {
     max-width: 1420px;
+    height: 625px;
     display: flex;
     flex-flow: column nowrap;
     margin: 0 auto;
     gap: 97px;
     position: relative;
     top: 82px;
-    bottom: 156px;
 }
 
 .services-heading {
@@ -47,3 +47,17 @@
 .services-list-item-name:hover {
     color: #a7a8cd;
 }
+
+@media only screen and (max-width: 991px) {
+    .services {
+        height: 750px;
+        gap: 47px;
+    }
+  }
+
+@media only screen and (max-width: 542px) {
+    .services {
+        height: 1050px;
+        gap: 47px;
+    }
+  }
