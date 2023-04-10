@@ -1,5 +1,4 @@
 import './CompanyNameFooter.css';
-import { logoFooter } from '../../../assets/images/SVGs';
 
 const CompanyNameFooter = () => {
     return (
