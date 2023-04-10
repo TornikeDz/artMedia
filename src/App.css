@@ -2,3 +2,16 @@ html {
     font-size: 10px;
 }
 
+.about-container, .header, .news-container {
+    position: relative;
+    left: calc((100vw - 1420px)/2);
+}
+
+@media only screen and (max-width: 1420px) {
+    .about-container, .header, .news-container {
+        left: 0;
+    }
+    .news-container {
+        left: 80px;
+    }
+}

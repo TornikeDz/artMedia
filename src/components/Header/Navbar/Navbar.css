@@ -14,8 +14,9 @@
     cursor: pointer;
 }
 
-a {
+.navigation-list-item a{
     text-decoration: none;
+    color: #2B3252;
 }
 
 .navigation-list-item a.active  {

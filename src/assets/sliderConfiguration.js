@@ -4,7 +4,7 @@ export const responsive = {
         max: 1920,
         min: 1541
       },
-      items: 4,
+      items: 3,
       partialVisibilityGutter: 10
     },
     large: {
@@ -13,7 +13,7 @@ export const responsive = {
         min: 1149
       },
       items: 2,
-      partialVisibilityGutter: -20
+      partialVisibilityGutter: 10
     },
     small: {
       breakpoint: {

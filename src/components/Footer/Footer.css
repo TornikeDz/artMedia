@@ -34,7 +34,11 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 22px;
+}
+
+.footer-info-navigation-list-item a {
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .footer-info-contact {

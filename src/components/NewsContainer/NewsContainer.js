@@ -10,6 +10,7 @@ import { arrowLeft, arrowRight } from '../../assets/images/SVGs'
 const NewsContainer = () => {
     const carouselRef = useRef(null);
     const [currentIndex, setCurrentIndex] = useState(0);
+    
 
     const next = () => {
       carouselRef.current.next();

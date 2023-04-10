@@ -7,7 +7,6 @@
 
 .news-container {
     position: relative;
-    left: 13%;
     height: 100%;
 }
 
@@ -19,6 +18,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .news-container-header h2 {
@@ -33,6 +33,7 @@
     position: relative;
     display: flex;
     gap: 28px;
+    bottom: 8px;
 }
 
 .news-container-header-buttons div {
@@ -41,7 +42,6 @@
 
 .news-container-list {
     position: relative;
-    margin: 0 auto;
     padding-left: 0px;
     overflow: hidden;
     top: 187px;
@@ -57,15 +57,6 @@
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
-  }
-
-
-.react-multi-carousel-track {
-    gap: 50px;
-}
-
-.react-multiple-carousel__arrow{
-    display: none;
 }
 
 .news-border {
@@ -76,6 +67,19 @@
     border: solid 1px  #EF5555;
     background: #EF5555;
 }
+
+.react-multi-carousel-track {
+    gap: 50px;
+}
+
+.react-multiple-carousel__arrow{
+    display: none;
+}
+
+.news-container-list  {
+    left: -40px;
+}
+
 
 @media only screen and (max-width: 1643px) {
     .news-container-header-buttons {
