@@ -63,7 +63,20 @@
 .react-multi-carousel-track {
     gap: 50px;
 }
- 
+
+.react-multiple-carousel__arrow{
+    display: none;
+}
+
+.news-border {
+    width: calc(100% - 20px);
+    height: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 1px  #EF5555;
+    background: #EF5555;
+}
+
 @media only screen and (max-width: 1643px) {
     .news-container-header-buttons {
         right: 18%;

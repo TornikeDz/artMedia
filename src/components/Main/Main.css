@@ -73,8 +73,8 @@
       top: 4000;
   }
 
-  .borderer {
-    width: 100%;
+  .main-border {
+    width: calc(100% - 20px);
     height: 10px;
     left: 0px;
     margin-left: 10px;
@@ -83,6 +83,8 @@
     height: 10px;
     border: solid 2px solid red;
     background: #2B3252;
+    position: absolute;
+    bottom: -10px;
   }
 
 
