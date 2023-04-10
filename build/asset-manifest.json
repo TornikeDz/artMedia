@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/artMedia/static/css/main.73aeab80.css",
+    "main.js": "/artMedia/static/js/main.3b8f987f.js",
+    "static/media/main-background.png": "/artMedia/static/media/main-background.0fb8048783a96be11d4e.png",
+    "static/media/about-background.png": "/artMedia/static/media/about-background.ac00762f2e1d2f987eb4.png",
+    "static/media/news02.png": "/artMedia/static/media/news02.cbdb0877f6216f89c724.png",
+    "static/media/news04.png": "/artMedia/static/media/news04.804cab0282e863c775d9.png",
+    "static/media/news01.png": "/artMedia/static/media/news01.59f1bfdb63b83aeb3fd5.png",
+    "static/media/news03.png": "/artMedia/static/media/news03.531ad8dc68ef17f394c3.png",
+    "static/media/revicons.eot": "/artMedia/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/artMedia/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/artMedia/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logo-footer.svg": "/artMedia/static/media/logo-footer.22a5a7eda05503895c6b56edf5caedc7.svg",
+    "static/media/logo-header.svg": "/artMedia/static/media/logo-header.56f9bbefaf84902b1c21c566ac4056b5.svg",
+    "static/media/search-bar-loop.svg": "/artMedia/static/media/search-bar-loop.a8acfda4401daca74c0c68b91ae270f3.svg",
+    "index.html": "/artMedia/index.html",
+    "static/media/logo-fb.svg": "/artMedia/static/media/logo-fb.56238e0d4a89de6b2b7ba8d2e4e1915a.svg",
+    "static/media/logo-instagram.svg": "/artMedia/static/media/logo-instagram.9397d444f704427ec6a4866d43dd95d7.svg",
+    "main.73aeab80.css.map": "/artMedia/static/css/main.73aeab80.css.map",
+    "main.3b8f987f.js.map": "/artMedia/static/js/main.3b8f987f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73aeab80.css",
+    "static/js/main.3b8f987f.js"
+  ]
+}
